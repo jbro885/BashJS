@@ -1,0 +1,60 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Consolas,monospace;
+  color: white;
+  margin: 0px;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+font {
+  display: inline;
+  color: white;
+  overflow-wrap: normal;
+}
+
+.output {
+  overflow-wrap: normal;
+}
+
+#commandinput {
+  font-family: Consolas,monospace;
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0px;
+  display: inline-block;
+  resize: none;
+  width: 88%;
+  position:absolute;
+  margin-left: 10px;
+}
+
+#joinmessage {
+  font-family: Consolas,monospace;
+}
+
+@font-face {
+  font-family: "Courier";
+  src: url(https://cdn.glitch.com/0b70cd8c-2a82-4013-9ef5-bb9a1ad7cfd9%2FSLC_.ttf?1527884768228) format("truetype");
+}
+
+.static-value{
+	position:absolute;
+	left:10px;
+	font-weight:bold;
+	font-size:0.8em;
+	color:#255;
+	top:9px;
+}
+
+textarea {
+  resize: vertical;
+}
