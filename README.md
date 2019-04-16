@@ -1,6 +1,8 @@
 BashJS
 =================
 
+https://bash-js.glitch.me
+
 BashJS is a linux terminal emulator made in Express and NodeJs.
 
 Simply start the server by opening the 'server.js' file in the main folder.
